@@ -9,19 +9,20 @@
 townmappals: MACRO
 rept _NARG / 2
 	dn PAL_TOWNMAP_\2, PAL_TOWNMAP_\1
-	shift 2
+	shift
+	shift
 endr
 ENDM
 
 ; gfx/pokegear/town_map.png
 	townmappals EARTH,    EARTH,    EARTH,    MOUNTAIN, MOUNTAIN, MOUNTAIN, BORDER,   BORDER
-	townmappals EARTH,    EARTH,    CITY,     EARTH,    POI,      POI_MTN,  POI,      POI_MTN
+	townmappals EARTH,    EARTH,    CITY,     EARTH,    POI_MTN,  POI_MTN,  POI,      POI
 	townmappals EARTH,    EARTH,    EARTH,    MOUNTAIN, MOUNTAIN, MOUNTAIN, BORDER,   BORDER
-	townmappals EARTH,    EARTH,    BORDER,   EARTH,    EARTH,    BORDER,   BORDER,   BORDER
+	townmappals EARTH,    EARTH,    CITY,     EARTH,    EARTH,    EARTH,    BORDER,   BORDER
 	townmappals EARTH,    EARTH,    EARTH,    MOUNTAIN, MOUNTAIN, MOUNTAIN, BORDER,   BORDER
 	townmappals BORDER,   BORDER,   BORDER,   BORDER,   BORDER,   BORDER,   BORDER,   BORDER
 ; gfx/pokegear/pokegear.png
-	townmappals BORDER,   BORDER,   BORDER,   BORDER,   POI,      POI,      POI,      BORDER
+	townmappals BORDER,   BORDER,   BORDER,   BORDER,   POI_MTN,  POI_MTN,  POI_MTN,  BORDER
 	townmappals BORDER,   BORDER,   BORDER,   BORDER,   BORDER,   BORDER,   BORDER,   BORDER
 	townmappals CITY,     CITY,     CITY,     CITY,     CITY,     CITY,     CITY,     CITY
 	townmappals CITY,     CITY,     CITY,     CITY,     CITY,     CITY,     CITY,     BORDER
