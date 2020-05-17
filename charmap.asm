@@ -174,12 +174,18 @@
 	charmap "'t",        $d5
 	charmap "'v",        $d6
 
+	charmap "?!",        $da
+
+	charmap "<3",        $dc
+	charmap "↑",         $dd
+	charmap "↓",         $de
 	charmap "←",         $df
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
-
+	charmap "~",         $e4
+	charmap "~!",        $e5
 	charmap "?",         $e6
 	charmap "!",         $e7
 	charmap ".",         $e8
